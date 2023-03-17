@@ -1,0 +1,58 @@
+---
+// Component Imports
+import './style.css'
+
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	</head>
+	<body>
+        <div class="line-container">
+			<div class="line-container__line"></div>
+			<div class="line-container__line"></div>
+			<div class="line-container__line"></div>
+			<div class="line-container__line"></div>
+			<div class="line-container__line"></div>
+			<div class="line-container__line"></div>
+			<div class="line-container__line"></div>
+		</div>
+        <main>
+			<div class="main__text">
+				<p class="hello-world">Continuons avec mon...</p>
+				<h1>Parcours</h1>
+				<div class="text-container">
+                        <div class="text-container__left">
+							<div class="text-container__img">
+								<img src="./img/ignition.png" alt="Ignition Program">
+							</div>
+							<div class="text-container__title">Brand & Communication | 2022-2023, en cours</div>
+							<div class="text-container__learnings">
+								<span>💡 Learnings</span><br />
+								Lorem ipsum<br />
+								Lorem ipsum
+							</div>
+                        </div>
+                        <div class="text-container__right">
+							<div class="text-container__img">
+								<img src="./img/ignition.png" alt="Ignition Program">
+							</div>
+							<div class="text-container__title">Brand & Communication | 2022-2023, en cours</div>
+							<div class="text-container__learnings">
+								<span>💡 Learnings</span><br />
+								Lorem ipsum<br />
+								Lorem ipsum
+							</div>
+                        </div>
+					</div>
+				</div>
+		</main>
+    </body>
+</html>
